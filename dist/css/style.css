@@ -44,14 +44,14 @@ body {
 
 .contenedor__reloj {
   font-size: 22px;
-  margin-top: 60px;
+  margin-top: 50px;
   font-weight: bold;
 }
 
 @media screen and (min-width: 735px) {
   .contenedor__reloj {
     margin-top: 20px;
-    font-size: 33px;
+    font-size: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
