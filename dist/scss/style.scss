@@ -12,34 +12,36 @@ hola !!
     color: #ffffff;
 }
 body{
-    background-color: #00b8d4;
+    background-color: #000000;
 }
+
 .contenedor{
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     overflow: hidden;
-    .row{
-        height: 100vh;
-    }
-    &__img{
-        width: 90%;
 
+    &__img{
+        width: 300px;
     }
     &__title{
-        font-size: 30px;
-        margin-top: 60px;
+        font-size: 20px;
         text-align: center;
-        @media screen and (min-width: 735px){
-            margin-top: 10px;
-        }
+        margin-top: 20px;
     }
     &__reloj{
-        font-size: 22px;
-        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        font-size: 32px;
+        margin-top: 20px;
         font-weight: bold;
-        @media screen and (min-width: 735px){
-            margin-top: 20px;
+        @media screen and (min-width: 736px){
+            display: block;
             font-size: 40px;
         }
     }
+}
+.weatherwidget-io{
+    margin: 0;
+    padding: 0;
+    background-color:  #000000;
 }

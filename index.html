@@ -23,24 +23,30 @@
 <body>
 
     <!-- Start your project here-->
-    <div class="">
-        <a class="weatherwidget-io" href="https://forecast7.com/es/19d71n101d19/morelia/" data-label_1="MORELIA" data-theme="original">MORELIA WEATHER</a>
-    </div>
-    <div class="contenedor container-fluid h-100">
-        <div class="row">
-            <div class="col-md-9 flex-center flex-column p-5">
+
+    <!-- Screen -->
+    <div class="screen">
+        <div class="contenedor container-fluid blue-gradient">
+            <div class="px-3 pt-5 pb-0 text-center">
                 <img src="dist/img/Logo/lionsdevstudio-white.png" alt="logo" class="contenedor__img">
-                <h1 class="contenedor__title">Es tiempo de disfrutar de la vida Daniel!</h1>
                 <div class="contenedor__reloj">
-                    <i class="far fa-calendar-alt mr-1"></i><span id="date"></span>
-                    <i class="far fa-clock ml-2 mr-1"></i><span id="time"></span>
+                    <i class="far fa-calendar-alt mr-1 mt-3"></i><span id="date"></span>
+                    <i class="far fa-clock ml-2 mr-1 mt-4 mt-mb-0"></i><span id="time"></span>
                 </div>
-            </div>
-            <div class="col-md-3 bg-dark w-100 flex-center">
-                <h2>Hola</h2>
+                <h1 class="contenedor__title">Es tiempo de disfrutar de la vida!</h1>
             </div>
         </div>
     </div>
+    <!-- Screen -->
+
+    <!-- Weather -->
+    <div class="fixed-bottom">
+        <a class="weatherwidget-io" href="https://forecast7.com/es/19d71n101d19/morelia/" data-label_1="MORELIA"
+            data-theme="original">MORELIA WEATHER</a>
+    </div>
+    <!-- Weather -->
+
+
     <!-- End your project here-->
 
     <!-- jQuery -->
