@@ -76,6 +76,22 @@ function updateTime(){
     var d_str = day + "-" + month + "-" + year ;
     document.getElementById('date').innerHTML = d_str;
     
+    if(hours <= 12){
+        var text_str = "Buenas Días Daniel"
+        document.getElementById('mensaje').innerHTML = text_str
+        innerHTML = text_str
+    }
+    if(hours >= 12){
+
+        var text_str = "Buenas Tardes Daniel"
+        document.getElementById('mensaje').innerHTML = text_str
+        innerHTML = text_str
+    }
+    if(hours >= 19){
+        var text_str = "Buenas Noches Daniel"
+        document.getElementById('mensaje').innerHTML = text_str
+        innerHTML = text_str
+    }
 }
 setInterval(updateTime, 1000);
 
