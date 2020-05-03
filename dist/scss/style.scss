@@ -18,8 +18,7 @@ body{
 
 .contenedor{
     width: 100%;
-    height: 75vh;
-    overflow: hidden;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,10 +29,10 @@ body{
     &__title{
         font-size: 30px;
         text-align: center;
-        margin-top: 60px;
+        margin-bottom: 50px;
         @media screen and (min-width: 736px){
             display: block;
-            margin-top: 20px;
+
             font-size: 30px;
         }
     }
@@ -53,4 +52,11 @@ body{
     margin: 0;
     padding: 0;
     background-color:  #000000;
+}
+
+.full-screen{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    // vertical-align: middle;
 }
