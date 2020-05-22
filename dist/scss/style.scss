@@ -4,65 +4,66 @@ hola !!
 
 */
 
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: arial;
     box-sizing: border-box;
     color: #ffffff;
 }
-body{
+body {
     background-color: #000;
-
 }
 
-.view{
+.view {
     width: 100%;
     height: 100vh;
+
+    &__img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
 }
-.mask{
+.mask {
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    &__img{
-        width: 300px;
-    }
-    &__title{
+    &__title {
         font-size: 30px;
         text-align: center;
         margin-bottom: 50px;
-        @media screen and (min-width: 736px){
-            display: block;
+        @media screen and (min-width: 736px) {
+        display: block;
 
-            font-size: 30px;
+        font-size: 30px;
         }
     }
-    &__reloj{
+    &__reloj {
         display: flex;
-        flex-direction: column;
-        font-size: 29px;
-        margin-top: 20px;
-        font-weight: bold;
-        @media screen and (min-width: 736px){
+            flex-direction: column;
+            font-size: 29px;
+            margin-top: 20px;
+            font-weight: bold;
+            @media screen and (min-width: 736px) {
             display: block;
             font-size: 40px;
+            }
         }
-    }
 }
-.weatherwidget-io{
+.weatherwidget-io {
     height: 100vh;
-    background-color:  #000000;
+    background-color: #000000;
 }
 
-.full-screen{
+.full-screen {
     width: 100%;
     height: 100vh;
     object-fit: cover;
     // vertical-align: middle;
 }
-img{
+img {
     object-fit: cover;
 }
