@@ -21,6 +21,13 @@ body {
   height: 100vh;
 }
 
+.view__img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .mask {
   width: 100%;
   height: 100vh;
@@ -33,10 +40,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.mask__img {
-  width: 300px;
 }
 
 .mask__title {
@@ -82,9 +85,15 @@ body {
   height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
+  vertical-align: middle;
 }
 
 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-fit-cover {
   -o-object-fit: cover;
      object-fit: cover;
 }
