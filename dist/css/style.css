@@ -16,7 +16,12 @@ body {
   background-color: #000;
 }
 
-.contenedor {
+.view {
+  width: 100%;
+  height: 100vh;
+}
+
+.mask {
   width: 100%;
   height: 100vh;
   display: -webkit-box;
@@ -30,24 +35,24 @@ body {
           justify-content: center;
 }
 
-.contenedor__img {
+.mask__img {
   width: 300px;
 }
 
-.contenedor__title {
+.mask__title {
   font-size: 30px;
   text-align: center;
   margin-bottom: 50px;
 }
 
 @media screen and (min-width: 736px) {
-  .contenedor__title {
+  .mask__title {
     display: block;
     font-size: 30px;
   }
 }
 
-.contenedor__reloj {
+.mask__reloj {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,7 +66,7 @@ body {
 }
 
 @media screen and (min-width: 736px) {
-  .contenedor__reloj {
+  .mask__reloj {
     display: block;
     font-size: 40px;
   }
