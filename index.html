@@ -21,10 +21,14 @@
 </head>
 
 <body>
-
+    <!-- audio -->
+    <audio src="dist/audio/agua1.mp3" autoplay loop>
+        <p>Tu navegador no implementa el elemento audio</p>
+    </audio>
+    <!-- audio -->
     <!-- Screen -->
     <div class="screen view">
-        <video class="full-screen" autoplay loop muted>
+        <video class="full-screen" autoplay loop>
             <source src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4" />
         </video>
         <div class="mask rgba-black-light p-5">
@@ -37,12 +41,7 @@
                 <h1 class="mask__title my-5"></i><span id="mensaje"></span></h1>
 
 
-                <!-- audio -->
-                <audio autoplay loop>
-                    <source src="dist/audio/agua1.mp3" type="audio/mp3">
-                Your browser does not support the audio element.
-                </audio>
-                <!-- audio -->
+
             </div>
         </div>
         <!-- Screen -->
