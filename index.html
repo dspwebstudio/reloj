@@ -25,9 +25,11 @@
 
     <!-- Screen -->
     <div class="screen view">
-        <img src="dist/img/imagenes/beach.jpg" alt="playa" srcset="" class="full-screen view__img">
-        <div class="mask rgba-black-light">
-            <div class="text-center p-2">
+        <video class="full-screen" autoplay loop muted>
+            <source src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4" />
+        </video>
+        <div class="mask rgba-black-light p-5">
+            <div class="text-center">
                 <img src="dist/img/Logo/lionsdevstudio-white.png" alt="logo" class="mask__img mx-auto">
                 <div class="mask__reloj">
                     <i class="far fa-calendar-alt mr-0 mr-sm-4 mt-3"></i><span class="font-size" id="date"></span>
@@ -36,7 +38,7 @@
                 <h1 class="mask__title my-5"></i><span id="mensaje"></span></h1>
 
                 <!-- Weather -->
-                <a class="weatherwidget-io" href="https://forecast7.com/es/19d71n101d19/morelia/" data-label_1="MORELIA"
+                <a class="weatherwidget-io w-100" href="https://forecast7.com/es/19d71n101d19/morelia/" data-label_1="MORELIA"
                     data-theme="original">MORELIA WEATHER</a>
                 <!-- Weather -->
             </div>
