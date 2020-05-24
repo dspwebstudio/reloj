@@ -22,7 +22,6 @@
 
 <body>
 
-
     <!-- Screen -->
     <div class="screen view">
         <video class="full-screen" autoplay loop muted>
@@ -31,22 +30,28 @@
         <div class="mask rgba-black-light p-5">
             <div class="text-center">
                 <img src="dist/img/Logo/lionsdevstudio-white.png" alt="logo" class="mask__img mx-auto">
-                <div class="mask__reloj">
+                <div class="mask__reloj my-5">
                     <i class="far fa-calendar-alt mr-0 mr-sm-4 mt-3"></i><span class="font-size" id="date"></span>
                     <i class="far fa-clock ml-2 mr-0 mr-sm-4 mt-4 mt-mb-0"></i><span class="font-size" id="time"></span>
                 </div>
                 <h1 class="mask__title my-5"></i><span id="mensaje"></span></h1>
 
-                <!-- Weather -->
-                <a class="weatherwidget-io w-100" href="https://forecast7.com/es/19d71n101d19/morelia/" data-label_1="MORELIA"
-                    data-theme="original">MORELIA WEATHER</a>
-                <!-- Weather -->
+
+                <!-- audio -->
+                <audio src="dist/audio/agua1.mp3" autoplay loop></audio>
+                <!-- audio -->
             </div>
         </div>
         <!-- Screen -->
     </div>
+
+    <!-- Weather -->
+    <a class="weatherwidget-io" href="https://forecast7.com/es/19d71n101d19/morelia/" data-label_1="MORELIA"
+        data-theme="original">MORELIA WEATHER</a>
+    <!-- Weather -->
+
     <!-- Carousel -->
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide d-none" data-ride="carousel">
         <div class="carousel-inner full-screen">
             <div class="carousel-item active full-screen">
                 <img class="full-screen object-fit-cover" src="dist/img/fotos/dani1.jpg">
