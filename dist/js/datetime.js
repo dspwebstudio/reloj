@@ -77,18 +77,18 @@ function updateTime(){
     document.getElementById('date').innerHTML = d_str;
     
     if(hours < 12){
-        var text_str = "Buenas Días Daniel"
+        var text_str = "Buenos Días"
         document.getElementById('mensaje').innerHTML = text_str
         innerHTML = text_str
     }
     if(hours >= 12){
 
-        var text_str = "Buenas Tardes Daniel"
+        var text_str = "Buenas Tardes"
         document.getElementById('mensaje').innerHTML = text_str
         innerHTML = text_str
     }
     if(hours >= 19){
-        var text_str = "Buenas Noches Daniel"
+        var text_str = "Buenas Noches"
         document.getElementById('mensaje').innerHTML = text_str
         innerHTML = text_str
     }
