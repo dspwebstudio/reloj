@@ -76,7 +76,7 @@ function updateTime(){
     var d_str = day + "-" + month + "-" + year ;
     document.getElementById('date').innerHTML = d_str;
     
-    if(0 < hours < 12){
+    if(0 <= hours < 12){
         var text_str = "Buenos Días"
         document.getElementById('mensaje').innerHTML = text_str
         innerHTML = text_str
