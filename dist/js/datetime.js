@@ -50,6 +50,9 @@ function updateTime(){
     if(hours < 12){
         var t_str = hours + ":" + minutes + ":" + seconds + " " + "a.m.";
         document.getElementById('time').innerHTML = t_str
+        var text_str = "Buenos Días"
+        document.getElementById('mensaje').innerHTML = text_str
+        innerHTML = text_str
     }
     if(hours > 12){
         hourspm = hours -12;
@@ -66,27 +69,22 @@ function updateTime(){
         hours = 12
         var t_str = hours+ ":" + minutes + ":" + seconds + " " + "p.m.";
         document.getElementById('time').innerHTML = t_str
+        var text_str = "Buenas Tardes";
+        document.getElementById('mensaje').innerHTML = text_str
+        innerHTML = text_str
     }
     if(hours == 0){
         hours = 12
         var t_str = hours + ":" + minutes + ":" + seconds + " " + "a.m.";
         document.getElementById('time').innerHTML = t_str
+        var text_str = "Buenos Días";
+        document.getElementById('mensaje').innerHTML = text_str
+        innerHTML = text_str
     }
     
     var d_str = day + "-" + month + "-" + year ;
     document.getElementById('date').innerHTML = d_str;
     
-    if(0 <= hours < 12){
-        var text_str = "Buenos Días"
-        document.getElementById('mensaje').innerHTML = text_str
-        innerHTML = text_str
-    }
-    if(hours >= 12){
-
-        var text_str = "Buenas Tardes"
-        document.getElementById('mensaje').innerHTML = text_str
-        innerHTML = text_str
-    }
     if(hours >= 19){
         var text_str = "Buenas Noches"
         document.getElementById('mensaje').innerHTML = text_str
