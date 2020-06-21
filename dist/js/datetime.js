@@ -64,6 +64,9 @@ function updateTime(){
             var t_str = hourspm + ":" + minutes + ":" + seconds + " " + "p.m.";
             document.getElementById('time').innerHTML = t_str
         }
+        var text_str = "Buenas Tardes";
+        document.getElementById('mensaje').innerHTML = text_str
+        innerHTML = text_str
     }
     if(hours == 12){
         hours = 12
